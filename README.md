@@ -14,3 +14,4 @@ An incremental clicker game where players accumulate currency by clicking and pu
 
 ### Planned Data Model
 * Expected fields for every Infrastructure item: `id`, `name`, `category`, `description`, `level`, `baseCost`, `unitYield`, `cycleTime`, `costMultiplier`, `all-time yield`
+* Some fields may change or others could be added.
