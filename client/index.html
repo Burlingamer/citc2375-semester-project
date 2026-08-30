@@ -1,16 +1,95 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>iClicker</title>
+  <title>InfraClicker Main Page</title>
 </head>
+
 <body>
+
   <header>
-    <h1>iClicker (CITC 2375 Semester Project)</h1>
+    <h1>InfraClicker</h1>
+    <nav> 
+      <ul>
+        <li><a href="index.html" title="The main page!">Home</a></li>
+        <li><a href="store.html" title="The big store! (not the little one)">Store</a></li>
+        <li><a href="about.html" title="The about page.">About</a></li>
+      </ul>
+    </nav>
+    <hr>
   </header>
+
   <main>
-    <p>This is the iClicker web application.</p>
+
+    <p> 
+      This is the InfraClicker main page. <br>
+      It will contain the core functions of the application. <br>
+      For now, it has simple examples of what may be included in the future. 
+    </p>
+
+    <article id="manual-clicker">
+
+      <h2> Manual Clicker </h2>
+      <h3> <i> Manual unit generator </i> </h3>
+      <p> <strong> Level: </strong> 0</p>
+      <p> <strong> Units per cycle: </strong> 1 </p>
+      <p> <strong> Cycle time: </strong> 1 second </p>
+      <p> <strong> All-time yield: </strong> 0 </p>
+      <button> Currently useless </button>
+      <p> 
+        This will be the very beginning element of the game, a manual clicker button. <br>
+        It will generate a fair amount of units per click and will remain relevant in later stages of the game. <br>
+        It will be upgradable to increase its yield and speed. <br> 
+      </p>
+
+    </article>
+
+    <article id="auto-clicker">
+      
+      <h2> AutoClicker </h2>
+      <h3> <i> Standard automated unit generator </i> </h3>
+      <p> <strong> Level: </strong> 0 </p>
+      <p> <strong> Units per cycle: </strong> 1 </p>
+      <p> <strong> Cycle time: </strong> 5 seconds </p>
+      <p> <strong> All-time yield: </strong> 0 </p>
+      <p> 
+        This will be the first upgrade the player can purchase. <br>
+        As the name implies, it will automatically generate units for the player. <br>
+        It will be upgradable to increase its yield and speed. <br>
+      </p>
+
+    </article>
+
+    <article id="overclock">
+      
+      <h2> Overclock </h2>
+      <h3> <i> Time-based consumable </i> </h3>
+      <p> <strong> Level: </strong> 0 </p>
+      <p> <strong> Effect: </strong> 2x yield across all Infrastructure</p>
+      <p> <strong> Lifetime: </strong> 10 seconds </p>
+      <p> <strong> All-time yield: </strong> 0 </p>
+
+      <p> 
+        This will be a temporary status effect that can be activated by the player. <br>
+        It will increase yield across player Infrastructure for a limited duration. <br>
+        However, it will also have a cooldown period and also a specific window it <br>
+        can be activated. Otherwise, it will be wasted. <br>
+      </p>
+
+    </article>
+
+    <p> <strong> App inspiration: Cookie Clicker. </strong> The og and classic clicker game. </strong></p>
+    <a href="https://orteil.dashnet.org/cookieclicker/" target="_blank"> Visit the Cookie Clicker website. <br>
+        <image src="images/cookie-clicker.jpg" alt="The Cookie Clicker logo" width="100" height="100">
+    </a>
+    
   </main>
+
+  <footer>
+    <p>&copy; 2026 InfraClicker. Billions of rights reserved.</p>
+  </footer>
+
 </body>
 </html>
