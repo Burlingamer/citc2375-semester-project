@@ -12,6 +12,5 @@ An incremental clicker game where players accumulate currency by clicking and pu
 - Live Site: https://citc2375-iburlingame-project.onrender.com/
 - Project Topic: A progression-based clicker game with resource management.
 
-## Planned Data Model
-Expected fields for every Infrastructure item:
-- 'id', 'name', 'category', 'description', 'level', 'baseCost', 'unitYield', 'cycleTime', 'costMultiplier', 'all-time yield'
+### Planned Data Model
+* Expected fields for every Infrastructure item: `id`, `name`, `category`, `description`, `level`, `baseCost`, `unitYield`, `cycleTime`, `costMultiplier`, `all-time yield`
