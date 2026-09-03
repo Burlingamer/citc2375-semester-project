@@ -1,0 +1,106 @@
+/* // Base Styles // */
+body {
+    font-family: verdana;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color:ghostwhite;
+}
+
+p {
+    max-width: 600px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+a:hover {
+    background-color: gainsboro;
+}
+
+a:active {
+    font-weight: bold;
+}
+
+/* // Header and Navigation Styles // */
+.site-header {
+    margin-bottom: 20px;
+}
+
+.nav-list {
+  display: flex;       
+  list-style: none;       
+  gap: 10px;              
+  padding: 0;            
+  margin: 0;              
+}
+
+.nav-list a {
+  text-decoration: none;  
+  color: lightslategray;    
+  padding: 5px;        
+}
+
+.nav-list a:hover {
+  color: darkslategray; 
+  background-color:gainsboro; 
+}
+
+.nav-list a.active {
+  font-weight: bold;      
+  color: darkslategray;    
+}
+
+.footer-links {
+  display: flex;       
+  list-style: none;       
+  gap: 10px;              
+  padding: 0;    
+  margin: 0;        
+  margin-top: -10px;              
+}
+
+.footer-links a {
+    color: lightslategray;
+    font-size: 10px;
+    padding: 5px;
+}
+
+.footer-links a:hover {
+    color: darkslategray;
+    background-color:gainsboro;
+}
+
+.footer-links a:active {
+    font-weight: bold;
+    color: darkslategray;
+}
+
+/* // Main Content Styles // */
+.game-interface {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.generator, .consumable {
+    border: 1px solid darkgray;
+    background-color:lightgray;
+    padding: 10px;
+    margin-bottom: 20px;
+    flex: 1 1 300px;
+}
+
+.generator h3, .consumable h3 {
+    font-family: monospace;
+}
+
+.generator p, .consumable p {
+    font-family: monospace;
+}
+
+
+
