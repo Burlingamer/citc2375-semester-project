@@ -1,3 +1,12 @@
+:root {
+    --color-background: ghostwhite;
+    --color-background-hover: gainsboro;
+    --color-background-alt: lightgray;
+    --color-border: darkgray;
+    --color-text: darkslategray;
+    --color-accent: lightslategray;
+}
+
 /* // Base Styles // */
 body {
     font-family: verdana;
@@ -5,7 +14,7 @@ body {
     padding-right: 5%;
     padding-top: 2%;
     padding-bottom: 2%;
-    background-color:ghostwhite;
+    background-color: var(--color-background);
 }
 
 p {
@@ -18,7 +27,7 @@ img {
 }
 
 a:hover {
-    background-color: gainsboro;
+    background-color: var(--color-background-hover);
 }
 
 a:active {
@@ -31,7 +40,9 @@ a:active {
 }
 
 .nav-list {
-  display: flex;       
+  display: flex;    
+  flex-wrap: wrap;
+  align-items: center;   
   list-style: none;       
   gap: 10px;              
   padding: 0;            
@@ -40,43 +51,47 @@ a:active {
 
 .nav-list a {
   text-decoration: none;  
-  color: lightslategray;    
+  color: var(--color-accent);
   padding: 5px;        
 }
 
-.nav-list a:hover {
-  color: darkslategray; 
-  background-color:gainsboro; 
+.nav-list a:hover,
+.nav-list a:focus-visible {
+  color: var(--color-text);
+  background-color: var(--color-background-hover);
+  outline: 1px solid var(--color-accent);
 }
 
 .nav-list a.active {
   font-weight: bold;      
-  color: darkslategray;    
+  color: var(--color-text); 
 }
 
 .footer-links {
-  display: flex;       
+  display: flex;   
+  flex-wrap: wrap;
+  align-items: center;    
   list-style: none;       
   gap: 10px;              
   padding: 0;    
-  margin: 0;        
-  margin-top: -10px;              
+  margin: 10px 0 0 0;                    
 }
 
 .footer-links a {
-    color: lightslategray;
+    color: var(--color-accent);
     font-size: 10px;
     padding: 5px;
 }
 
-.footer-links a:hover {
-    color: darkslategray;
-    background-color:gainsboro;
+.footer-links a:hover,
+.footer-links a:focus-visible {
+    color: var(--color-text);
+    background-color: var(--color-background-hover);
 }
 
 .footer-links a:active {
     font-weight: bold;
-    color: darkslategray;
+    color: var(--color-text);
 }
 
 /* // Main Content Styles // */
@@ -86,12 +101,16 @@ a:active {
     gap: 20px;
 }
 
-.generator, .consumable {
-    border: 1px solid darkgray;
-    background-color:lightgray;
+.item {
+    border: 1px solid var(--color-border);
+    background-color: var(--color-background-alt);
     padding: 10px;
     margin-bottom: 20px;
     flex: 1 1 300px;
+}
+
+.item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
 .generator h3, .consumable h3 {
