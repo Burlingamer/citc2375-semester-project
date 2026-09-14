@@ -32,3 +32,8 @@ An incremental clicker game where players accumulate currency by clicking and pu
 - Overall increased visual appeal of the website
 - Made Infrastructure items have dynamic sizing and inline behavior
 - Tweaked project description
+
+### Week 4
+- Created universal color references in CSS stylesheet
+- Polished flexbox implementation across .index page
+- Small polishing details to CSS to ensure proper scaling
