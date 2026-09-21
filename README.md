@@ -37,3 +37,9 @@ An incremental clicker game where players accumulate currency by clicking and pu
 - Created universal color references in CSS stylesheet
 - Polished flexbox implementation across .index page
 - Small polishing details to CSS to ensure proper scaling
+
+### Week 5
+- Created `add.html` with an Add Item form matching planned data model fields
+- Added user friendly labels and built-in validation attributes to form inputs
+- Added "Add Item" link to site nav bar on all pages
+- Added an Infrastructure specifications table to `about.html` using HTML table
