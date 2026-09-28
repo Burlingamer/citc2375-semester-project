@@ -20,3 +20,10 @@ if (sampleItemCount < 3)
 {
     console.log("Sample item count at least 3 and is sufficient.");
 }
+
+console.log("Project summary: " +
+"An incremental clicker game where players accumulate currency by clicking and purchasing automated upgrades." + 
+"As players earn currency, they unlock more powerful 'generators' and other upgrades that increase cashflow over time." +
+"However, the game becomes more complex for the player to manage over time." +
+"The app manages the shop inventory, player currency states, and various generators / upgrades that are active."
+);
