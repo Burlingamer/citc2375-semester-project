@@ -43,3 +43,7 @@ An incremental clicker game where players accumulate currency by clicking and pu
 - Added user friendly labels and built-in validation attributes to form inputs
 - Added "Add Item" link to site nav bar on all pages
 - Added an Infrastructure specifications table to `about.html` using HTML table
+
+### Week 6
+- Created `app.js` with basic project level constants, a sample calculation, and sample if/else
+- Linked `app.js` to `index.html`
