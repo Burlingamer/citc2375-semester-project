@@ -47,3 +47,7 @@ An incremental clicker game where players accumulate currency by clicking and pu
 ### Week 6
 - Created `app.js` with basic project level constants, a sample calculation, and sample if/else
 - Linked `app.js` to `index.html`
+
+## Week 7
+- Mild polish
+- Exam 1 Walkthrough Video
