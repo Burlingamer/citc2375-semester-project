@@ -51,3 +51,15 @@ An incremental clicker game where players accumulate currency by clicking and pu
 ## Week 7
 - Mild polish
 - Exam 1 Walkthrough Video
+
+## Week 8
+- Fall break
+
+## Week 9
+- Created `data.js`
+- Added an array containing 6 generator objects
+- Added helper functions to retrieve items by ID and type.
+- Added array summary function
+- Implemented JSON stringify experiment to test round-trip value retention
+- Logged results to console
+- Linked `data.js` in `index.html`
