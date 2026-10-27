@@ -25,6 +25,8 @@ console.log("Item ID 0:", getItemById(0).name);
 console.log("Item Type 'generator':", getItemByType("generator"));
 console.log("JSON Experiment Result (Description):", JSONifyItems());
 
+console.log("Items Summary (Units Per Second):", generateItemSummary());
+
 console.log(`Project summary: ` +
 `An incremental clicker game where players accumulate currency by clicking and purchasing automated upgrades.` + 
 `As players earn currency, they unlock more powerful 'generators' and other upgrades that increase cashflow over time.` +
